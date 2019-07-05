@@ -527,6 +527,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2971878001059971154, guid: cd93fe42d6e9440f491c2ab3000bd0ab,
+        type: 3}
+      propertyPath: audioMixer
+      value: 
+      objectReference: {fileID: 24100000, guid: e8f5662700ed94699891e2105ecd4dd9,
+        type: 2}
     - target: {fileID: 4511812042953788091, guid: cd93fe42d6e9440f491c2ab3000bd0ab,
         type: 3}
       propertyPath: m_IsActive
@@ -547,22 +553,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4511812045068855285, guid: cd93fe42d6e9440f491c2ab3000bd0ab,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4511812042992781991, guid: cd93fe42d6e9440f491c2ab3000bd0ab,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2971878001059971154, guid: cd93fe42d6e9440f491c2ab3000bd0ab,
-        type: 3}
-      propertyPath: audioMixer
-      value: 
-      objectReference: {fileID: 24100000, guid: e8f5662700ed94699891e2105ecd4dd9,
-        type: 2}
     - target: {fileID: 7117768731533382242, guid: cd93fe42d6e9440f491c2ab3000bd0ab,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -711,6 +701,16 @@ PrefabInstance:
     - target: {fileID: 766913406888936096, guid: cd93fe42d6e9440f491c2ab3000bd0ab,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511812045068855285, guid: cd93fe42d6e9440f491c2ab3000bd0ab,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511812042992781991, guid: cd93fe42d6e9440f491c2ab3000bd0ab,
+        type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
