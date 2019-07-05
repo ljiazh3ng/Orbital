@@ -1,10 +1,10 @@
-[Aa]ssets/AssetStoreTools*
-[Bb]uild/
-[Ll]ibrary/
-[Ll]ocal[Cc]ache/
-[Oo]bj/
-[Tt]emp/
-[Uu]nityGenerated/
+/Inescapable/[Aa]ssets/AssetStoreTools*
+/Inescapable/[Bb]uild/
+/Inescapable/[Ll]ibrary/
+/Inescapable/[Ll]ocal[Cc]ache/
+/Inescapable/[Oo]bj/
+/Inescapable/[Tt]emp/
+/Inescapable/[Uu]nityGenerated/
 # file on crash reports
 sysinfo.txt
 # Unity3D generated meta files
