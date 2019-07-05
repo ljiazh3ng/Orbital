@@ -1,11 +1,5 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/MainMenu.cs">
-    <Files>
-      <File FileName="Assets/DestroyObject.cs" Line="14" Column="6" />
-      <File FileName="Assets/PointsToWin.cs" Line="26" Column="53" />
-      <File FileName="Assets/Scenes/MainMenu.cs" Line="17" Column="6" />
-      <File FileName="Assets/Scenes/HighscoreTable.cs" Line="24" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
