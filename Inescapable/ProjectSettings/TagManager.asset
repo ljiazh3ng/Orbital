@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Fire
+  - Points
+  - points
   layers:
   - Default
   - TransparentFX
