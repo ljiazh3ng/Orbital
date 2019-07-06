@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/HighscoreTable.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.purchasing@2.0.6/package.json">
     <Files>
-      <File FileName="Assets/Scenes/HighscoreTable.cs" Line="90" Column="6" />
-      <File FileName="Assets/Scenes/MainMenu.cs" Line="6" Column="24" />
+      <File FileName="Assets/Scenes/HighscoreTable.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Library/PackageCache/com.unity.purchasing@2.0.6/package.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
