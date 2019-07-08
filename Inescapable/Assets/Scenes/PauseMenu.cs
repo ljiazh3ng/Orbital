@@ -5,7 +5,10 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-    public GameObject pauseMenuUI; 
+    public static bool UserInOption = false; 
+    public GameObject pauseMenuUI;
+    public GameObject optionMenuUI;
+    public GameObject User;
 
     // Update is called once per frame
     void Update()
@@ -14,7 +17,14 @@ public class PauseMenu : MonoBehaviour
         {
             if (GameIsPaused)
             {
-                Resume(); 
+                if (UserInOption)
+                {
+                    OptionToPause();
+                }
+                else
+                {
+                    Resume();
+                }
             } else
             {
                 Pause();
@@ -27,16 +37,31 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        User.SetActive(true);
     }
     // Pause the game
     void Pause()
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-        GameIsPaused = true; 
-
+        GameIsPaused = true;
+        User.SetActive(false);
     }
 
+    //Option to Pause
+    public void OptionToPause()
+    {
+        optionMenuUI.SetActive(false);
+        pauseMenuUI.SetActive(true);
+        UserInOption = false;
+    }
+
+    public void Option()
+    {
+        pauseMenuUI.SetActive(false);
+        optionMenuUI.SetActive(true);
+        UserInOption = true;
+    }
     public void quitGame()
     {
         Application.Quit();
