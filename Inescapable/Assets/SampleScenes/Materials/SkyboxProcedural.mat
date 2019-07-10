@@ -21,7 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AtmosphereThickness: 2.43
-    - _Exposure: 0.5
+    - _Exposure: 8
     - _SunDisk: 2
     - _SunSize: 0.04
     - _SunSizeConvergence: 1
