@@ -5,11 +5,13 @@ using UnityEngine;
 public class DestroyObject : MonoBehaviour
 {
     // Start is called before the first frame update
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider other)
     {
-        if(collision.gameObject.tag == "Player")
+        if(other.name == "Player")
         {
-            Destroy(this.gameObject);
+           //  other.GetComponent<PlayerScript>().points++;
+            Destroy(gameObject);
         }
     }
 }
