@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/ScoringSystem.cs">
     <Files>
-      <File FileName="Assets/Scenes/PauseMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/SettingMenu.cs" />
-      <File FileName="Assets/Scenes/DestroyObject.cs" />
       <File FileName="Assets/Scenes/ScoringSystem.cs" Line="8" Column="5" />
-      <File FileName="Assets/Scenes/CollectKeys.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scenes/CollectKeys.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
