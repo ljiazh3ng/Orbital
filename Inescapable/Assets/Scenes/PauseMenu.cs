@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class PauseMenu : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
+
             if (GameIsPaused)
             {
                 if (UserInOption)
@@ -27,6 +29,9 @@ public class PauseMenu : MonoBehaviour
                 }
             } else
             {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.visible = true;
                 Pause();
             }
         }
@@ -42,10 +47,10 @@ public class PauseMenu : MonoBehaviour
     // Pause the game
     void Pause()
     {
+        User.SetActive(false);
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-        User.SetActive(false);
     }
 
     //Option to Pause

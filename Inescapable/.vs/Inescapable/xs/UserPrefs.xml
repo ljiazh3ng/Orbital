@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/ScoringSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument=".vs/Inescapable/xs/UserPrefs.xml">
     <Files>
-      <File FileName="Assets/Scenes/PauseMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/SettingMenu.cs" />
-      <File FileName="Assets/Scenes/DestroyObject.cs" />
-      <File FileName="Assets/Scenes/ScoringSystem.cs" Line="8" Column="5" />
-      <File FileName="Assets/Scenes/CollectKeys.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scenes/PauseMenu.cs" Line="75" Column="1" />
+      <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="260" Column="1" />
+      <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs" Line="116" Column="1" />
+      <File FileName=".vs/Inescapable/xs/UserPrefs.xml" Line="66" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +18,7 @@
                 <Node name="Scripts" expanded="True" />
               </Node>
               <Node name="Scenes" expanded="True">
-                <Node name="ScoringSystem.cs" selected="True" />
+                <Node name="PauseMenu.cs" selected="True" />
               </Node>
               <Node name="Standard Assets" expanded="True">
                 <Node name="Characters" expanded="True">
@@ -32,6 +31,14 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Inescapable" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="Inescapable" expanded="True" selected="True" />
@@ -41,7 +48,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="97ea24c3-c94e-4a7c-ac5f-c7bda4c8ddbd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4239cf7f-c2a8-4353-94b9-28079da2cc63" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
