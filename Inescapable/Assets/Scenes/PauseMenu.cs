@@ -56,6 +56,10 @@ public class PauseMenu : MonoBehaviour
     //Option to Pause
     public void OptionToPause()
     {
+        User.SetActive(false);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
         optionMenuUI.SetActive(false);
         pauseMenuUI.SetActive(true);
         UserInOption = false;
