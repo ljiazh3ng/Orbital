@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/TimerGameOver.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/Behaviour.cs">
     <Files>
-      <File FileName="Assets/Scenes/Scripts/TimerGameOver.cs" Line="22" Column="38" />
-      <File FileName="Assets/Scenes/Scripts/PauseMenu.cs" Line="55" Column="29" />
-      <File FileName="Assets/Scenes/Scripts/GameOverOverlay.cs" Line="35" Column="31" />
+      <File FileName="Assets/Scenes/Scripts/FollowScript.cs" Line="12" Column="4" />
+      <File FileName="Assets/Scenes/Scripts/TimerGameOver.cs" />
+      <File FileName="Assets/Scenes/Scripts/ScoringSystem.cs" />
+      <File FileName="Assets/Scenes/Scripts/GameOverOverlay.cs" />
+      <File FileName="Assets/Scenes/Scripts/DestroyObject.cs" />
+      <File FileName="Assets/Scenes/Scripts/Behaviour.cs" Line="34" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +21,10 @@
               </Node>
               <Node name="Scenes" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="TimerGameOver.cs" selected="True" />
+                  <Node name="Behaviour.cs" selected="True" />
+                </Node>
+                <Node name="Slender" expanded="True">
+                  <Node name="Other" expanded="True" />
                 </Node>
               </Node>
               <Node name="Standard Assets" expanded="True">
@@ -32,6 +38,14 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Inescapable" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="Inescapable" expanded="True" selected="True" />
@@ -41,7 +55,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="97ea24c3-c94e-4a7c-ac5f-c7bda4c8ddbd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8cb95dfc-5485-401c-b75d-12611a22902c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
