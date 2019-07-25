@@ -1,12 +1,7 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/Behaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/FollowScript.cs">
     <Files>
-      <File FileName="Assets/Scenes/Scripts/FollowScript.cs" Line="12" Column="4" />
-      <File FileName="Assets/Scenes/Scripts/TimerGameOver.cs" />
-      <File FileName="Assets/Scenes/Scripts/ScoringSystem.cs" />
-      <File FileName="Assets/Scenes/Scripts/GameOverOverlay.cs" />
-      <File FileName="Assets/Scenes/Scripts/DestroyObject.cs" />
-      <File FileName="Assets/Scenes/Scripts/Behaviour.cs" Line="34" Column="52" />
+      <File FileName="Assets/Scenes/Scripts/FollowScript.cs" Line="26" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,7 +16,7 @@
               </Node>
               <Node name="Scenes" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="Behaviour.cs" selected="True" />
+                  <Node name="FollowScript.cs" selected="True" />
                 </Node>
                 <Node name="Slender" expanded="True">
                   <Node name="Other" expanded="True" />

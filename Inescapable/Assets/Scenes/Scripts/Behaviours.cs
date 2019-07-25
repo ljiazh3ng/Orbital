@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Behaviour : MonoBehaviour
+public class Behaviours : MonoBehaviour
 {
 
     Transform Leader;
@@ -42,6 +42,7 @@ public class Behaviour : MonoBehaviour
 
         if(this.GetComponent<Renderer>().isVisible)
         {
+            Debug.Log("Visible");
             SlenderVisible = true;
         } else
         {
