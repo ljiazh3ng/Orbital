@@ -23,7 +23,7 @@ public class GameOverOverlay : MonoBehaviour
                 gameOverTextUI.text = "You have collected " + keysCollected + "/10 keys.";
             } else
             {
-                gameOverTextUI.text = "You have collected " + keysCollected + "/10 keys but have not made it to the exit.";
+                gameOverTextUI.text = "You have collected " + keysCollected + "/10 keys \nbut did not made it to the exit.";
 
             }
             endGame();
