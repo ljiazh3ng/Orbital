@@ -12,7 +12,7 @@ public class GameOverOverlay : MonoBehaviour
     void Update()
     {
         bool gameIsOver = TimerGameOver.countDownStartValue == -1;
-        if (gameIsOver || Behaviours.Found || (TimerGameOver.lookSlenderDie < 0))
+        if (gameIsOver || Behaviour.Found || (TimerGameOver.lookSlenderDie < 0))
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.lockState = CursorLockMode.Confined;

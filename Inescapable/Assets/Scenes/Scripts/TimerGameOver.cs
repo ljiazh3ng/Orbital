@@ -22,11 +22,11 @@ public class TimerGameOver : MonoBehaviour
     {
         if (countDownStartValue >= 0)
         {
-            if(Behaviours.SlenderVisible)
+            if(Behaviour.SlenderVisible)
             {
                 if(lookSlenderDie > 2)
                 {
-                    Behaviours.audioData.Play();
+                    Behaviour.audioData.Play();
                 }
                 TimeSpan die = TimeSpan.FromSeconds(lookSlenderDie);
                 lookSlenderDie--;
