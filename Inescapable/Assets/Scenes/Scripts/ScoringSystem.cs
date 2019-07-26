@@ -13,9 +13,9 @@ public class ScoringSystem : MonoBehaviour
     void Update()
     { 
         scoreText.GetComponent<Text>().text = "Keys: " + gameScore;
-        if (gameScore == 10)
+        if (gameScore == 8)
         {
-            collected10KeysText.text = "You have collected 10 Keys, make your way to the exit!"; 
+            collected10KeysText.text = "You have collected 8 Keys, make your way to the exit!"; 
         }
     }
 }

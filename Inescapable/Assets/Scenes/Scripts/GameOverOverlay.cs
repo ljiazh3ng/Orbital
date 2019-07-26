@@ -18,12 +18,12 @@ public class GameOverOverlay : MonoBehaviour
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;
             int keysCollected = ScoringSystem.gameScore;
-            if (keysCollected < 10)
+            if (keysCollected < 8)
             {
-                gameOverTextUI.text = "You have collected " + keysCollected + "/10 keys.";
+                gameOverTextUI.text = "You have collected " + keysCollected + "/8 keys.";
             } else
             {
-                gameOverTextUI.text = "You have collected " + keysCollected + "/10 keys \nbut did not made it to the exit.";
+                gameOverTextUI.text = "You have collected " + keysCollected + "/8 keys \nbut did not made it to the exit.";
 
             }
             endGame();
