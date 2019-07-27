@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/CollectKeys.cs">
     <Files>
       <File FileName="Assets/Scenes/Scripts/FollowScript.cs" Line="28" Column="5" />
       <File FileName="Assets/Scenes/Scripts/TimerGameOver.cs" />
       <File FileName="Assets/Scenes/Scripts/GameOverOverlay.cs" />
       <File FileName="Assets/Scenes/Scripts/DestroyObject.cs" />
-      <File FileName="Assets/Scenes/Scripts/CollectKeys.cs" />
+      <File FileName="Assets/Scenes/Scripts/CollectKeys.cs" Line="12" Column="29" />
       <File FileName="Assets/Scenes/Scripts/ScoringSystem.cs" />
       <File FileName="Assets/Scenes/Scripts/VictorySprite.cs" />
       <File FileName="Assets/Scenes/Scripts/PointsToWin.cs" />
@@ -25,7 +25,7 @@
               </Node>
               <Node name="Scenes" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="MainMenu.cs" selected="True" />
+                  <Node name="CollectKeys.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="Standard Assets" expanded="True">
