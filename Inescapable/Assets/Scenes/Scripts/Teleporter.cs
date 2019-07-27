@@ -10,7 +10,7 @@ public class Teleporter : MonoBehaviour
     public float distanceToPlayer; // how close the enemy has to be to the player to play music
 
     private bool nearPlayer = false; // use this to stop the teleporting if near the player
-    private float nextTeleport = 20.0f; // will keep track of when we to teleport next
+    private float nextTeleport = 0.0f; // will keep track of when we to teleport next
     void Start()
     {
         nextTeleport = spawnRate;
