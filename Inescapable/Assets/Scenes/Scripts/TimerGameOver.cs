@@ -1,4 +1,4 @@
-﻿using System; 
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +9,7 @@ public class TimerGameOver : MonoBehaviour
 
     public static int countDownStartValue = 1000;
     public Text timerUI;
-    public static int lookSlenderDie = 3; 
+    public static int lookSlenderDie = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -22,20 +22,21 @@ public class TimerGameOver : MonoBehaviour
     {
         if (countDownStartValue >= 0)
         {
-            if (Behaviour. SlenderVisible)
+            if (Behaviour.SlenderVisible && FollowScript.DistApart < 40)
             {
-                if(lookSlenderDie > 2)
+                if (lookSlenderDie > 2)
                 {
                     Behaviour.audioData.Play();
 
                 }
                 TimeSpan die = TimeSpan.FromSeconds(lookSlenderDie);
-                lookSlenderDie--; 
-            } else
-            {
-                lookSlenderDie = 3; 
+                lookSlenderDie--;
             }
-            TimeSpan spanTime = TimeSpan.FromSeconds(countDownStartValue);            
+            else
+            {
+                lookSlenderDie = 3;
+            }
+            TimeSpan spanTime = TimeSpan.FromSeconds(countDownStartValue);
             timerUI.text = spanTime.Minutes + ":" + spanTime.Seconds;
             if (spanTime.Seconds < 10)
             {
@@ -46,7 +47,7 @@ public class TimerGameOver : MonoBehaviour
         }
         else
         {
-            timerUI.text = "Game Over!"; 
+            timerUI.text = "Game Over!";
         }
     }
 
