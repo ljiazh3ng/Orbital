@@ -1,38 +1,20 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/Teleporter.cs">
     <Files>
-      <File FileName="Assets/Scenes/Scripts/TimerGameOver.cs" Line="10" Column="46" />
-      <File FileName="Assets/Scenes/Scripts/PauseMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/Scripts/ScoringSystem.cs" Line="18" Column="61" />
-      <File FileName="Assets/Scenes/Scripts/GameOverOverlay.cs" Line="31" Column="6" />
-      <File FileName="Assets/Scenes/Scripts/AnimatorScript.cs" Line="7" Column="26" />
-      <File FileName="Assets/Scenes/Scripts/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Scripts/TimerGameOver.cs" Line="10" Column="49" />
+      <File FileName="Assets/Scenes/Scripts/PauseMenu.cs" />
+      <File FileName="Assets/Scenes/Scripts/ScoringSystem.cs" />
+      <File FileName="Assets/Scenes/Scripts/GameOverOverlay.cs" />
+      <File FileName="Assets/Scenes/Scripts/AnimatorScript.cs" />
+      <File FileName="Assets/Scenes/Scripts/MainMenu.cs" />
+      <File FileName="Assets/Scenes/Scripts/Behaviour.cs" />
+      <File FileName="Assets/Scenes/Scripts/FollowScript.cs" />
+      <File FileName="Assets/Scenes/Scripts/Teleporter.cs" Line="35" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Inescapable" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="SampleScenes" expanded="True">
-                <Node name="Menu" expanded="True">
-                  <Node name="Scripts" expanded="True" />
-                </Node>
-                <Node name="Scripts" expanded="True" />
-              </Node>
-              <Node name="Scenes" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="MainMenu.cs" selected="True" />
-                </Node>
-              </Node>
-              <Node name="Standard Assets" expanded="True">
-                <Node name="Characters" expanded="True">
-                  <Node name="FirstPersonCharacter" expanded="True">
-                    <Node name="Scripts" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="Inescapable" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">

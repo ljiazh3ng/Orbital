@@ -7,8 +7,9 @@ using UnityEngine.UI;
 public class TimerGameOver : MonoBehaviour
 {
 
-    public static int countDownStartValue = 5;
-    public Text timerUI; 
+    public static int countDownStartValue = 1000;
+    public Text timerUI;
+    public static int lookSlenderDie = 3; 
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,19 @@ public class TimerGameOver : MonoBehaviour
     {
         if (countDownStartValue >= 0)
         {
+            if (Behaviour. SlenderVisible)
+            {
+                if(lookSlenderDie > 2)
+                {
+                    Behaviour.audioData.Play();
+
+                }
+                TimeSpan die = TimeSpan.FromSeconds(lookSlenderDie);
+                lookSlenderDie--; 
+            } else
+            {
+                lookSlenderDie = 3; 
+            }
             TimeSpan spanTime = TimeSpan.FromSeconds(countDownStartValue);            
             timerUI.text = spanTime.Minutes + ":" + spanTime.Seconds;
             if (spanTime.Seconds < 10)
