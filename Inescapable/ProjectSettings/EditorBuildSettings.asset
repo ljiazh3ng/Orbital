@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HighscoreTable.unity
     guid: 24db8117fc3804ccca0543f0b36acc5b
+  - enabled: 1
+    path: Assets/Scenes/VictoryEnd.unity
+    guid: af9e7a27f00764a03992d62fb3840e3a
   m_configObjects: {}

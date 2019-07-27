@@ -10,7 +10,7 @@ public class DestroyObject : MonoBehaviour
     {
         if(other.name == "Player")
         {
-           //  other.GetComponent<PlayerScript>().points++;
+            //  other.GetComponent<PlayerScript>().points++;
             Destroy(gameObject);
         }
     }
