@@ -7,23 +7,24 @@ public class GameOverOverlay : MonoBehaviour
 {
     public GameObject gameOverUI;
     public GameObject User;
-    public Text gameOverTextUI; 
+    public Text gameOverTextUI;
 
     void Update()
     {
         bool gameIsOver = TimerGameOver.countDownStartValue == -1;
-        if (gameIsOver)
+        if (gameIsOver || Behaviour.Found || (TimerGameOver.lookSlenderDie < 0))
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;
             int keysCollected = ScoringSystem.gameScore;
-            if (keysCollected < 8)
+            if (keysCollected < 10)
             {
                 gameOverTextUI.text = "You have collected " + keysCollected + "/8 keys.";
-            } else
+            }
+            else
             {
-                gameOverTextUI.text = "You have collected " + keysCollected + "/8 keys \nbut did not made it to the exit.";
+                gameOverTextUI.text = "You have collected " + keysCollected + "/8 keys but have not made it to the exit.";
 
             }
             endGame();
