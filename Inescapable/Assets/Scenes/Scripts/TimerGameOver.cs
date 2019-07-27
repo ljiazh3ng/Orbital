@@ -22,7 +22,7 @@ public class TimerGameOver : MonoBehaviour
     {
         if (countDownStartValue >= 0)
         {
-            if (Behaviour. SlenderVisible && FollowScript.DistApart < 30 )
+            if (Behaviour. SlenderVisible)
             {
                 if(lookSlenderDie > 2)
                 {

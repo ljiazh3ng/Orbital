@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument=".vs/Inescapable/xs/UserPrefs.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/MainMenu.cs">
     <Files>
-      <File FileName="Assets/Scenes/Scripts/FollowScript.cs" Line="30" Column="5" />
-      <File FileName="Assets/Scenes/Scripts/TimerGameOver.cs" Line="54" Column="1" />
-      <File FileName="Assets/Scenes/Scripts/GameOverOverlay.cs" Line="15" Column="45" />
-      <File FileName="Assets/Scenes/Scripts/Behaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/Scripts/ScoringSystem.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scenes/Scripts/VictorySprite.cs" Line="47" Column="1" />
-      <File FileName="Assets/Scenes/Scripts/PointsToWin.cs" Line="8" Column="26" />
-      <File FileName="Assets/Scenes/Scripts/HighscoreTable.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/Scripts/MainMenu.cs" Line="39" Column="1" />
-      <File FileName="Assets/Scenes/Scripts/Teleporter.cs" Line="43" Column="2" />
-      <File FileName=".vs/Inescapable/xs/UserPrefs.xml" Line="28" Column="10" />
+      <File FileName="Assets/Scenes/Scripts/FollowScript.cs" Line="28" Column="5" />
+      <File FileName="Assets/Scenes/Scripts/TimerGameOver.cs" />
+      <File FileName="Assets/Scenes/Scripts/GameOverOverlay.cs" />
+      <File FileName="Assets/Scenes/Scripts/DestroyObject.cs" />
+      <File FileName="Assets/Scenes/Scripts/CollectKeys.cs" />
+      <File FileName="Assets/Scenes/Scripts/ScoringSystem.cs" />
+      <File FileName="Assets/Scenes/Scripts/VictorySprite.cs" />
+      <File FileName="Assets/Scenes/Scripts/PointsToWin.cs" />
+      <File FileName="Assets/Scenes/Scripts/HighscoreTable.cs" />
+      <File FileName="Assets/Scenes/Scripts/MainMenu.cs" Line="36" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +25,7 @@
               </Node>
               <Node name="Scenes" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="FollowScript.cs" selected="True" />
+                  <Node name="MainMenu.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="Standard Assets" expanded="True">
@@ -40,14 +39,6 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="Inescapable" expanded="True" selected="True" />
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="Inescapable" expanded="True" selected="True" />
@@ -57,7 +48,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b2cdc421-fcb3-4faa-b7d7-a523a158cb95" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a8ccb320-811e-4ed2-b8bc-c9154f1fa087" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
