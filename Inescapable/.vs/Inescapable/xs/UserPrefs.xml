@@ -9,7 +9,7 @@
       <File FileName="Assets/Scenes/Scripts/MainMenu.cs" />
       <File FileName="Assets/Scenes/Scripts/Behaviour.cs" />
       <File FileName="Assets/Scenes/Scripts/FollowScript.cs" />
-      <File FileName="Assets/Scenes/Scripts/Teleporter.cs" Line="35" Column="7" />
+      <File FileName="Assets/Scenes/Scripts/Teleporter.cs" Line="38" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
