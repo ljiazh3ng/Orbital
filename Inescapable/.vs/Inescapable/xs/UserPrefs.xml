@@ -7,10 +7,10 @@
       <File FileName="Assets/Scenes/Scripts/DestroyObject.cs" />
       <File FileName="Assets/Scenes/Scripts/CollectKeys.cs" />
       <File FileName="Assets/Scenes/Scripts/ScoringSystem.cs" />
-      <File FileName="Assets/Scenes/Scripts/VictorySprite.cs" Line="27" Column="6" />
+      <File FileName="Assets/Scenes/Scripts/VictorySprite.cs" />
       <File FileName="Assets/Scenes/Scripts/PointsToWin.cs" />
       <File FileName="Assets/Scenes/Scripts/HighscoreTable.cs" />
-      <File FileName="Assets/Scenes/Scripts/MainMenu.cs" Line="31" Column="33" />
+      <File FileName="Assets/Scenes/Scripts/MainMenu.cs" Line="36" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
