@@ -6,9 +6,10 @@ public class FollowScript : MonoBehaviour
 {
     // Start is called before the first frame update
     Transform Leader;
-    float AISpeed = 10;
+    float AISpeed = 1;
     //float MaxDistance = 100000;
-    public static float MinDistance = 10;
+    public static float MinDistance = 3;
+    public static float DistApart = 0;
 
 
     void Start()
@@ -20,6 +21,7 @@ public class FollowScript : MonoBehaviour
     void Update()
     {
         transform.LookAt(Leader);
+        DistApart = Vector3.Distance(transform.position, Leader.position);
 
         if (Vector3.Distance(transform.position, Leader.position) >= MinDistance && Behaviour.CanMove)
         {
