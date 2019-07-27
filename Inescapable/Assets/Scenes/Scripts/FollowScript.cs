@@ -14,6 +14,8 @@ public class FollowScript : MonoBehaviour
 
     void Start()
     {
+        MinDistance = 3;
+        DistApart = 0;
         Leader = GameObject.FindGameObjectWithTag("Player").transform;
     }
 

@@ -7,13 +7,14 @@ using UnityEngine.UI;
 public class TimerGameOver : MonoBehaviour
 {
 
-    public static int countDownStartValue = 1000;
+    public static int countDownStartValue = 5;
     public Text timerUI;
     public static int lookSlenderDie = 3;
 
     // Start is called before the first frame update
     void Start()
     {
+        countDownStartValue = 5;
         countDownTimer();
 
     }

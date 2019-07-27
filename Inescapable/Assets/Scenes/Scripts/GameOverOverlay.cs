@@ -9,6 +9,10 @@ public class GameOverOverlay : MonoBehaviour
     public GameObject User;
     public Text gameOverTextUI;
 
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
     void Update()
     {
         bool gameIsOver = TimerGameOver.countDownStartValue == -1;
