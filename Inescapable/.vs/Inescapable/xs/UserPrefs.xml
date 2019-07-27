@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{E5FAA26E-FE00-5E4B-002B-F43664E326AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/Teleporter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scripts/TimerGameOver.cs">
     <Files>
       <File FileName="Assets/Scenes/Scripts/TimerGameOver.cs" Line="10" Column="49" />
       <File FileName="Assets/Scenes/Scripts/PauseMenu.cs" />
